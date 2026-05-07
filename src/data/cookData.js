@@ -1,0 +1,88 @@
+export const COOK_PROFILE = {
+  name: "Sunita Devi",
+  rating: 4.8,
+  totalOrders: 1240,
+  activeSubscribers: 34,
+  joinedDate: "Jan 2024",
+  area: "Hazratganj, Lucknow",
+};
+
+export const TODAY_ORDERS = [
+  {
+    id: "o_001",
+    customerName: "Rahul Sharma",
+    plan: "Double Decker",
+    meals: "Lunch + Dinner",
+    diet: "No restrictions",
+    portion: "Regular",
+    allergies: "None",
+    skipToday: false,
+    address: "B-14, Hazratganj",
+    status: "pending",
+  },
+  {
+    id: "o_002",
+    customerName: "Priya Mehta",
+    plan: "Basic Tiffin",
+    meals: "Lunch only",
+    diet: "Vegetarian",
+    portion: "Small",
+    allergies: "Peanuts",
+    skipToday: false,
+    address: "Hostel Block C, Amity",
+    status: "pending",
+  },
+  {
+    id: "o_003",
+    customerName: "Amit Verma",
+    plan: "Double Decker",
+    meals: "Lunch + Dinner",
+    diet: "Jain",
+    portion: "Large",
+    allergies: "Onion/Garlic",
+    skipToday: true,
+    address: "Sector 7, Indira Nagar",
+    status: "skipped",
+  },
+  {
+    id: "o_004",
+    customerName: "Rakesh Family",
+    plan: "Family Pack",
+    meals: "Lunch + Dinner for 3",
+    diet: "Low-spice",
+    portion: "Regular",
+    allergies: "None",
+    skipToday: false,
+    address: "Gomti Nagar, Lane 4",
+    status: "pending",
+  },
+  {
+    id: "o_005",
+    customerName: "Sneha Gupta",
+    plan: "Basic Tiffin",
+    meals: "Lunch only",
+    diet: "Vegan",
+    portion: "Regular",
+    allergies: "Dairy",
+    skipToday: false,
+    address: "Aliganj, Near Park",
+    status: "delivered",
+  },
+];
+
+export const WEEK_MENU = [
+  { day: "Monday",    lunch: "Dal Makhani + Roti + Salad",       dinner: "Paneer Sabzi + Rice" },
+  { day: "Tuesday",   lunch: "Rajma + Rice + Raita",             dinner: "Aloo Gobhi + Roti" },
+  { day: "Wednesday", lunch: "Chole + Bhature + Salad",          dinner: "Mix Veg + Rice + Dal" },
+  { day: "Thursday",  lunch: "Kadhi Pakora + Rice + Roti",       dinner: "Matar Paneer + Roti" },
+  { day: "Friday",    lunch: "Palak Dal + Rice + Papad",         dinner: "Jeera Rice + Sabzi" },
+  { day: "Saturday",  lunch: "Special Biryani + Raita + Sweet",  dinner: "Roti + Dal Tadka" },
+  { day: "Sunday",    lunch: "Puri Sabzi + Halwa (Special)",     dinner: "Rest day" },
+];
+
+export const EARNINGS = [
+  { month: "January",  amount: 28400 },
+  { month: "February", amount: 31200 },
+  { month: "March",    amount: 29800 },
+  { month: "April",    amount: 34500 },
+];

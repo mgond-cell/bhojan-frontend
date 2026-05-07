@@ -1,0 +1,98 @@
+.plans-page { padding-bottom: 4rem; }
+
+/* Hero */
+.plans-hero { background: var(--surface-warm); padding: 3.5rem 0 2.5rem; border-bottom: 1px solid var(--border-light); }
+.plans-hero-inner { display: flex; flex-direction: column; align-items: center; gap: 1rem; text-align: center; }
+.plans-title { font-family: var(--font-display); font-size: clamp(26px, 4vw, 40px); font-weight: 800; color: var(--text-primary); }
+.plans-sub { font-size: 15px; color: var(--text-secondary); max-width: 500px; line-height: 1.7; }
+
+/* Toggle */
+.period-toggle { display: flex; gap: 8px; margin-top: 0.5rem; }
+.tog-btn {
+  padding: 9px 24px;
+  border-radius: 30px;
+  border: 1.5px solid var(--primary);
+  background: transparent;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+  transition: all 0.18s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tog-btn.active { background: var(--primary); color: #fff; }
+.tog-save {
+  background: var(--success);
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+/* Grid */
+.plans-grid-section { padding: 3rem 0; }
+.plans-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+
+/* Add-on */
+.addon-section { padding: 0 0 3rem; }
+.addon-card {
+  background: var(--accent-light);
+  border: 1.5px dashed var(--accent);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.addon-left { display: flex; gap: 1rem; flex: 1; min-width: 240px; }
+.addon-icon { font-size: 36px; flex-shrink: 0; }
+.addon-title { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px; }
+.addon-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px; }
+.addon-features { display: flex; flex-wrap: wrap; gap: 6px; }
+.addon-chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.addon-price-box { text-align: center; min-width: 100px; }
+.addon-price { font-family: var(--font-display); font-size: 36px; font-weight: 800; color: var(--primary); }
+.addon-price span { font-size: 16px; color: var(--text-muted); }
+.addon-note { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+/* Menu chips */
+.menu-section { padding: 0 0 3rem; }
+.menu-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 1rem; }
+.menu-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+.menu-chip-icon { font-size: 20px; }
+.menu-note { font-size: 13px; color: var(--text-muted); text-align: center; max-width: 540px; margin: 0 auto; line-height: 1.6; }
+
+/* FAQ */
+.faq-section { background: var(--surface-warm); padding: 3rem 0; }
+.faq-heading { font-family: var(--font-display); font-size: 24px; font-weight: 700; color: var(--text-primary); margin-bottom: 1.5rem; }
+.faq-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+.faq-q { font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--primary-dark); margin-bottom: 8px; }
+.faq-a { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
